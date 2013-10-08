@@ -36,16 +36,6 @@
 			<location>C:/Users/Luis/Downloads/monofont.ttf</location>
 		</link>
 		<link>
-			<name>CSS/main_style.css</name>
-			<type>1</type>
-			<location>C:/Users/Luis/Downloads/main_style.css</location>
-		</link>
-		<link>
-			<name>CSS/stylesheet.css</name>
-			<type>1</type>
-			<location>C:/Users/Luis/stylesheet.css</location>
-		</link>
-		<link>
 			<name>JavaScript/gen_validatorv31.js</name>
 			<type>1</type>
 			<location>C:/Users/Luis/Downloads/gen_validatorv31.js</location>
