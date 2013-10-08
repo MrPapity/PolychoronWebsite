@@ -16,8 +16,8 @@ $code = '';
 
 $i = 0;
 while ($i < $characters_on_image) { 
-$code .= substr($possible_letters, mt_rand(0, strlen($possible_letters)-1), 1);
-$i++;
+	$code .= substr($possible_letters, mt_rand(0, strlen($possible_letters)-1), 1);
+	$i++;
 }
 
 
@@ -36,13 +36,13 @@ $image_noise_color = imagecolorallocate($image, $arr_noice_color['red'],
 		$arr_noice_color['green'], $arr_noice_color['blue']);
 
 for( $i=0; $i<$random_dots; $i++ ) {
-imagefilledellipse($image, mt_rand(0,$image_width),
- mt_rand(0,$image_height), 2, 3, $image_noise_color);
+	imagefilledellipse($image, mt_rand(0,$image_width),
+	 mt_rand(0,$image_height), 2, 3, $image_noise_color);
 }
 
 for( $i=0; $i<$random_lines; $i++ ) {
-imageline($image, mt_rand(0,$image_width), mt_rand(0,$image_height),
- mt_rand(0,$image_width), mt_rand(0,$image_height), $image_noise_color);
+	imageline($image, mt_rand(0,$image_width), mt_rand(0,$image_height),
+	mt_rand(0,$image_width), mt_rand(0,$image_height), $image_noise_color);
 }
 
 $textbox = imagettfbbox($font_size, 0, $font, $code); 
@@ -55,8 +55,7 @@ imagejpeg($image);
 imagedestroy($image);
 $_SESSION['6_letters_code'] = $code;
 
-function hexrgb ($hexstr)
-{
+function hexrgb ($hexstr){
   $int = hexdec($hexstr);
 
   return array("red" => 0xFF & ($int >> 0x10),
