@@ -35,9 +35,17 @@ if(isset($_POST['submit'])){
 		$headers = "From: $from \r\n";
 		$headers .= "Reply-To: $visitor_email \r\n";
 		
-		mail($to, $subject, $body,$headers);
-		
-		header('Location: thankyou.html');
+		if(mail($to, $subject, $body,$headers)){
+			print '<script type="text/javascript">'; 
+			print 'alert("Correo enviado correctamente.")'; 
+			print '</script>';
+		}else{
+			print '<script type="text/javascript">'; 
+			print 'alert("Error: Correo no pudo ser enviado.")'; 
+			print '</script>';
+		}
+
+		//header('Location: thankyou.html');
 	}
 }
 
