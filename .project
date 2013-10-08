@@ -14,11 +14,4 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>JavaScript/gen_validatorv31.js</name>
-			<type>1</type>
-			<location>C:/Users/Luis/Downloads/gen_validatorv31.js</location>
-		</link>
-	</linkedResources>
 </projectDescription>
