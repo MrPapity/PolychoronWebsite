@@ -1,23 +1,12 @@
 html{
     background-color:#003333;
+    z-index: 3;
 }
 
 img{
     height:200px;
     width:200px;
     float:left;
-    margin-top:2%;
-}
-
-div:nth-child(2), div:nth-child(3), div:nth-child(4), div:nth-child(5){
-    height:5%;
-    width:10%;
-    border-radius:5px;
-    display:inline-block;
-    position:relative;
-    background-color:gray;    
-    margin-top:5%;
-    text-align:center
 }
 
 .font{
@@ -30,17 +19,17 @@ a:hover{
 } 
 
 a:link{
-    color:gray;
+    color:white;
 }
 
-div:nth-child(6){
+div:nth-child(4){
     height:75%;
-    width:55%;
+    width:75%;
     border:1px solid black;
     background-color:white;
     border-radius:10px;
     margin-top:8%;
-    margin-left:17%;
+    margin-left:12%;
     padding:15px;
 }
 
@@ -52,5 +41,32 @@ div:nth-child(6){
 
 #video{
 	margin-top:5%;
-	margin-left:13%;
+	margin-left:26%;
+}
+
+.BackMenu{
+	height:250px;
+	width:100.95%;
+	background-color:#000000;
+	z-index=2;
+	margin-top:-1%;
+	margin-left:-0.55%;
+}
+
+.TopBar{
+	height:65px;
+	width:100.95%;
+	background-color:#3232CD;
+	z-index:1;
+	margin-top:-5.15%;
+	margin-left:-0.55%;
+}
+
+table{
+	float:right;
+}
+
+.link{
+	font-size:1.5em;
+	color:white;
 }

@@ -10,11 +10,6 @@ background-color:#ffffff;
 font-family:arial, verdana, sans-serif;
 }
 
-img.Captcha {
-	width:300px;
-    height: auto;
-}
-
 table.UpperBar {
 width:90%;
 max-width:1000px;
