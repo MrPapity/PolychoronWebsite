@@ -80,7 +80,7 @@ function IsInjected($str){
     </head>
     <body>
     	<a href="INDEX.HTML">
-	    <img src="Polychoron.png"/>
+	    <img src="Polychoron_notext.png"/>
 	    </a>
 	    <div class="AboutUs"><a href="AboutUs.html"><p class="font">Acerca de</p></a></div>
 	    <div class="Services"><a href="http:www.hulur.com"><p class="font">Servicios</p></a></div>
